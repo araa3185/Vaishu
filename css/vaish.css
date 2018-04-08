@@ -1,0 +1,613 @@
+@import url("reset.css");
+@import url("grid.css");
+@import url("animate.css");
+@import url("portfolio.css");
+@import url("font-awesome.min.css");
+@import url("unslider.css");
+body{
+    -webkit-font-smoothing:antialiased;
+    background:transparent;
+    color:#37474f;
+    line-height:1.6em;
+    margin:0;
+    padding:0;
+    text-rendering:optimizeLegibility;
+    font-size:62.5%;
+    width:100%;
+    font-family:'Source Sans Pro',sans-serif;
+    overflow-x:hidden
+}
+.wrapper img{
+    width:261px;
+    height:200px;
+    border-width:0
+}
+.comingsoon{
+    background-image:url(../images/vaishnavi.png);
+    position:relative;
+    background-size:contain;
+    background-repeat:no-repeat
+}
+.container{
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:auto;
+    margin-right:auto;
+    width:1120px
+}
+header{
+    width:100%;
+    overflow:hidden;
+    position: relative;
+    z-index: 10;
+}
+.header-container{
+    padding:30px 15px 0
+}
+.vaishnavi_ram_logo{
+    width:200px;
+    height:60px;
+    border-width:0;
+    background-image:url(../images/vaishnavi.png);
+    position:relative;
+    background-size:contain;
+    background-repeat:no-repeat
+}
+.container-full{
+    padding:0;
+    margin:0;
+    position:absolute;
+    width:100%;
+    top:100%;
+    background-color:#ebeef3
+}
+.banner{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+33,e8e8e8+100 */
+     background: #ffffff;
+    /* Old browsers */
+     background: -moz-linear-gradient(-45deg, #ffffff 33%, #e8e8e8 100%);
+    /* FF3.6-15 */
+     background: -webkit-linear-gradient(-45deg, #ffffff 33%,#e8e8e8 100%);
+    /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(135deg, #ffffff 33%,#e8e8e8 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8e8e8',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */
+     background-image:url(../images/vaish_bg.jpg);
+     background-position: right bottom;
+     background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    text-align:left;
+    position:absolute;
+    height:100%;
+    width:100%;
+    min-height:750px
+}
+.vaish_overlay{
+    background:url(../images/vaish_bg_blur.jpg) right bottom no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    z-index:0;
+    opacity:0
+}
+.blurred-img{
+    background-color:rgba(50,54,61,0.9);
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    z-index:0;
+    opacity:0
+}
+.blackOverlay{
+    background-color:#000;
+    opacity:.0;
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%
+}
+.wrapper{
+    margin:0 auto;
+    border:0;
+    padding-left:15px;
+    padding-right:15px;
+    position:relative;
+    width:83.33333333%;
+    float:none
+}
+.banner-lead{
+    width:60%;
+    display:block;
+    padding-top:13%;
+    position:relative;
+    z-index:2
+}
+.banner-lead h1{
+    font-size:7em;
+    margin-bottom:20px;
+    line-height:1;
+    /*text-transform:uppercase;*/
+    color:#161617;
+    letter-spacing: -2px;
+}
+.banner-lead p{
+    font-size:1.7em;
+    line-height:1.7;
+    color:#37474f
+}
+.btn-container{
+    margin-top:50px
+}
+.btn-container .btn-1 a,.btn-container .btn-2 a{
+    text-decoration:none;
+    letter-spacing: 2px;
+    color:#78909c;
+    padding:12px 25px;
+    border:1px solid #d9e4e8;
+    color:#546e7a;
+    display:inline-block;
+    font-size:1.3em;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    font-weight:400;
+    border-radius: 3px;
+}
+.btn-container .btn-1{
+    margin-right:20px
+}
+.btn-container .btn-1 a:hover,.btn-container .btn-2 a:hover{
+    border:1px solid #45DCBA;
+    background-color:#45DCBA;
+    cursor:pointer;
+    color:#FFF
+}
+.works-bg{
+    padding:7% 0 0;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0
+}
+.works-wrapper{
+    text-align:left;
+    padding-bottom:7%;
+    position:relative
+}
+.works-wrapper>h1{
+    font-size:5em;
+    z-index:0;
+    margin:0 0 15px -5px;
+    color:#161617;
+    left:0;
+    line-height:1;
+    
+}
+.works-wrapper>h2{
+    color:#37474f;
+    font-size:2em;
+    font-weight:300;
+    position:relative
+}
+.work-samples{
+    padding:30px 0 0;
+}
+.floating-header{
+    height:50px;
+    width:100%;
+    top:0;
+    position:fixed;
+    z-index:100
+}
+.bg-color{
+    background:#373b42
+}
+.hidden{
+    display:none
+}
+.floating-header .logo{
+    float:left;
+    padding:7px 0 0;
+    z-index:1;
+    position:relative
+}
+.floating-header .logo .vaishnavi_ram_logo{
+    width: 150px;
+    height: 40px;
+
+}
+.floating-header .nav-links{
+    float:right;
+    padding:0;
+    z-index:1;
+    position:relative
+}
+.floating-header .nav-links ul{
+    display:inline-block;
+    margin:0;
+    padding:0
+}
+.floating-header .nav-links ul li{
+    height:50px;
+    display:inline-block
+}
+.floating-header .nav-links ul li a{
+    text-decoration:none;
+    font-size:1.3em;
+    color:#cfd8dc
+}
+.floating-header .nav-links ul li a.white{
+    text-decoration:none;
+    font-size:1.3em;
+    color:#78909c;
+    display:table-cell;
+    padding:3px 20px 0;
+    height:45px;
+    vertical-align:middle
+}
+.floating-header .nav-links ul li a.white:hover{
+    color:#45DCBA;
+    border-bottom:2px solid #45DCBA
+}
+.floating-header .nav-links ul li a:hover{
+    color:#FFF
+}
+.floating-title{
+    width:100%;
+    margin:0 auto;
+    position:absolute;
+    text-align:center;
+    left:0;
+    top:17px;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:1.6em;
+    z-index:0
+}
+.floating-title a{
+    color:#37474f;
+    text-decoration:none
+}
+.contact-bg{
+padding:7% 0;
+    overflow:hidden
+}
+.about-bg{
+    padding:7% 0;
+    background-color:#FFF;
+    overflow:hidden
+}
+.about-container{
+    display:table;
+    width:100%
+}
+.about-wrapper{
+    text-align:left;
+    width:60%;
+    display:table-cell;
+    vertical-align:middle;
+    position:relative
+}
+.about-wrapper .vaish_dp_m{
+    display:none
+}
+.about-wrapper h1{
+    font-size:6em;
+    z-index:0;
+    margin:0 0 20px -5px;
+    color:#161616;
+    left:0;
+    line-height:1;
+}
+.about-wrapper p{
+    color:#37474f;
+    font-size:1.6em;
+    line-height:1.6;
+    margin-bottom:20px;
+    position:relative
+}
+.about-wrapper-pic{
+    text-align:right;
+    vertical-align:middle
+}
+.about-wrapper-pic img{
+    width:80%;
+    vertical-align:middle;
+    min-width:300px;
+    border-radius:5px
+}
+.about-wrapper h1 img{
+    display:none
+}
+.about-wrapper .contact{
+    border-top:1px solid #cfd5e0;
+    padding:40px 0 0;
+    width:100%;
+    margin-top:20px;
+    float:left;
+    font-size:1.6em
+}
+.about-wrapper .contact p{
+    font-size:1em;
+    line-height:1;
+    margin-bottom:20px;
+    font-weight:700;
+    color:#78909c
+}
+.vaish-tweets{
+    padding:5% 0 7%;
+    width:100%;
+    overflow:hidden;
+    text-align:center
+}
+.vaish-tweets .tweet-wrap{
+    position:relative
+}
+.vaish-tweets .tweet-wrap h3{
+    font-size:1.4em;
+    font-weight:300;
+    margin-bottom:20px
+}
+.vaish-tweets .tweet-wrap h3 i{
+    display:block;
+    margin-bottom:5PX
+}
+.vaish-tweets .tweet-wrap p{
+    font-size:2em;
+    font-family:serif;
+    font-style:italic;
+    line-height:1.5
+}
+.vaish-tweets .tweet-wrap p span{
+    color:#55acee
+}
+.tweet-slider{
+    height:60px;
+    width:50%;
+    margin:0 auto
+}
+.design-process{
+     text-align: center;
+     padding-top: 70px;
+}
+.design-process h1{
+     font-size: 2em;
+     z-index: 0;
+     margin: 0 0 50px 0;
+     color: #37474f;
+     left: 0;
+     line-height: 1;
+     font-weight: 400;
+     text-align: center;
+     text-transform: uppercase;
+}
+.design-process img{
+     width: 75%;
+}
+ .about-wrapper h2{
+     font-size: 5em;
+     z-index: 0;
+     margin: 0 0 15px -5px;
+     color: #161616;
+     left: 0;
+     line-height: 1;
+}
+ .about-wrapper p a.email{
+     color:#0aca9e;
+     text-decoration: none;
+}
+footer{
+    width:100%;
+    padding:30px 0;
+    overflow:hidden;
+    background-color: #FFF;
+}
+footer .contact{
+    float:right;
+    font-size:1.4em
+}
+footer .contact ul,.about-wrapper .contact ul{
+    list-style:none;
+    display:inline
+}
+footer .contact ul li,.about-wrapper .contact ul li{
+    display:inline
+}
+footer .contact ul a{
+    text-decoration:none;
+    color:#546e7a
+}
+footer .contact ul a:hover{
+    color:#45DCBA
+}
+.about-wrapper .contact ul a{
+    text-decoration:none;
+    color:#546e7a
+}
+.about-wrapper .contact ul a:hover{
+    text-decoration:none;
+    color:#45DCBA
+}
+.about-wrapper .contact ul a i{
+    margin-right:8px;
+    font-size:1em
+}
+footer .contact ul a:after,.about-wrapper .contact ul a:after{
+    content:"·";
+    padding:0 1em 0 1em
+}
+footer .contact ul a.last:after,.about-wrapper .contact ul a.last:after{
+    content:none;
+    padding-right:0
+}
+footer .copyright{
+    float:left;
+    font-size:1.2em;
+    color:#90a4ae
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+@media only screen and (max-width:1130px){
+    .container{
+        width:960px
+    }
+    .about-wrapper{
+        width:50%
+    }
+    .about-wrapper h1 img{
+        display:none
+    }
+}
+@media only screen and (max-width:768px){
+    .container{
+        width:720px;
+        padding-left:20px;
+        padding-right:20px
+    }
+    .banner{
+        background:url(../images/vaish_bg_ipad.jpg);
+        background-size:cover;
+        background-position:right center
+    }
+    .about-wrapper{
+        display:block;
+        width:100%
+    }
+    .about-wrapper-pic{
+        display:none
+    }
+    .about-wrapper h1 img{
+        width:300px;
+        float:right;
+        margin:10px 10px 10px 20px;
+        border-radius:5px
+    }
+    .banner-lead{
+        width:60%;
+        display:block;
+        padding-top:30%;
+        position:relative;
+        z-index:2
+    }
+    .about-wrapper h1 img{
+        display:block
+    }
+    .tweet-slider{
+        width:80%
+    }
+    .unslider-nav{
+        bottom:-20px
+    }
+}
+@media all and (max-width:640px){
+    .banner{
+        background:url(../images/vaish_bg_m.jpg);
+        background-size:cover;
+        background-position:right center
+    }
+    .banner-lead{
+        width:100%
+    }
+    .banner-lead h1{
+        font-size:6em;
+        color:#cfd8dc
+    }
+    .banner-lead p{
+        color:#FFF
+    }
+    .btn-container .btn-1 a,.btn-container .btn-2 a{
+        color:#cfd8dc;
+        border:1px solid #cfd8dc
+    }
+    .container{
+        width:90%;
+        padding-left:10px;
+        padding-right:10px
+    }
+    .works-wrapper>h1,.about-wrapper h1{
+        font-size:6em
+    }
+    .about-wrapper p,.banner-lead p{
+        font-size:1.5em
+    }
+    .wrapper{
+        margin:20% 10px 0;
+        position:relative;
+        text-align:left;
+        border:0
+    }
+    .works-wrapper{
+        padding-bottom:0
+    }
+    .wrapper img{
+        width:200px;
+        height:160px;
+        border-width:0
+    }
+    .about-container{
+        display:block
+    }
+    .about-wrapper{
+        display:block;
+        width:100%
+    }
+    .about-wrapper .vaish_dp_m{
+        display:block;
+        width:100%;
+        margin-bottom:20px;
+        border-radius:5px
+    }
+    .about-wrapper-pic,.about-wrapper h1 img{
+        display:none
+    }
+    .floating-header .nav-links ul li a.white{
+        padding:3px 10px 0
+    }
+    .works-bg,.about-bg{
+        padding:15% 0
+    }
+    .about-wrapper .contact{
+        font-size:1.3em
+    }
+    footer{
+        overflow:hidden;
+        padding:20px 0
+    }
+    footer .contact{
+        margin-bottom:20px;
+        float:left;
+        font-size:1.2em
+    }
+    .vaish-tweets .tweet-wrap p{
+        font-size:1.4em
+    }
+    .about-wrapper .contact ul li{
+        display:block;
+        margin-bottom:20px
+    }
+    .unslider-nav{
+        display:none
+    }
+    .about-wrapper .contact ul a:after{
+        content:none;
+        padding-right:0
+    }
+}
+ 
