@@ -2,7 +2,7 @@
 @import url("grid.css");
 @import url("animate.css");
 @import url("portfolio.css");
-@import url("font-awesome.min.css");
+@import url("fontawesome-all.css");
 @import url("unslider.css");
 body{
     -webkit-font-smoothing:antialiased;
@@ -205,6 +205,7 @@ header{
 }
 .work-samples{
     padding:30px 0 0;
+    margin: 0 -20px;
 }
 .floating-header{
     height:50px;
@@ -556,6 +557,9 @@ footer .copyright{
     .works-wrapper{
         padding-bottom:0
     }
+    .work-samples{
+    margin: 0;
+    }
     .wrapper img{
         width:200px;
         height:160px;
@@ -610,4 +614,9 @@ footer .copyright{
         padding-right:0
     }
 }
- 
+
+@media all and (max-width:320px){
+    .floating-header .logo .vaishnavi_ram_logo{
+        width: 130px;
+    }
+ }

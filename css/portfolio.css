@@ -13,6 +13,9 @@
 .dashboard-bg{
 	background-image:url(../images/Dashboard/Dashboard_banner_bg.jpg);
 }
+.automate-bg{
+    background-image:url(../images/automate/automate_banner_bg.jpg);
+}
 .taykit-bg{
 	background-image:url(../images/Taykit/Taykit_banner_bg.jpg);
 }
@@ -128,10 +131,14 @@ font-weight: 400;
 	}
 .p-body p{
 	font-size: 1.7em;
-    line-height: 1.7;
+    line-height: 1.6;
     margin-bottom: 20px;
-	color: #546e7a;
+	color: #445c67;
 	}
+.p-body p.caption{
+    font-size: 2em;
+    font-style:italic;
+}    
 .p-body ul{font-size: 1.7em;
     margin-left: 40px;
 	color: #546e7a;
