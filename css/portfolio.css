@@ -42,7 +42,7 @@
 .p-container{ width:80%; margin:0 auto; max-width:768px }
 .p-container-img{ width:80%; margin:0 auto;}
 .p-container-f, p-container-f img{ width:100%}
-.container-b-nav{ width:100%; background-color:#2f3238; padding:50px 0}
+.container-b-nav{ width:100%; background-color:#414b5f; padding:50px 0}
 .container-b-nav .b-nav{ width:100%; display:table}
 .container-b-nav .b-nav .prev{ display: table-cell; text-align:left; width:50%; vertical-align: top}
 .container-b-nav .b-nav .next{ display: table-cell; text-align:right; width:50%; vertical-align: top}
@@ -56,7 +56,7 @@
     font-size: 12px;
     font-style: normal;
     margin-bottom: 5px;
-    color: #546e7a;
+    color: #6d8b98;
     text-transform: uppercase;
 }
 .p-w{ max-width:768px}
@@ -72,7 +72,7 @@
     margin: 0 0 20px;
 }
 .p-header h2{
-	font-size: 3em;
+	font-size: 2.5em;
     font-weight: 300;
     width: 70%;
     margin: 0 auto;
@@ -141,12 +141,12 @@ font-weight: 400;
 }    
 .p-body ul{font-size: 1.7em;
     margin-left: 40px;
-	color: #546e7a;
+	color: #445c67;
 	}
-.p-body ul li{ padding-bottom:20px; line-height:1.7em}	
+.p-body ul li{ padding-bottom:10px; line-height:1.6em}	
 .p-body ul.list{font-size: 1.7em;
     margin-left: 40px;
-	color: #546e7a; list-style-type: none}
+	color: #445c67; list-style-type: none}
 .p-body ul.list li{ padding-bottom:10px; line-height:1.7em}	
 .wrap_1{ margin:0 auto 75px}	
 .bg-color-white{ background-color:#fff;    box-shadow: 0 0px 10px 1px RGBA(0,0,0,0.1);}
