@@ -516,6 +516,9 @@ footer .copyright{
     .unslider-nav{
         bottom:-20px
     }
+     .design-process img{
+     width: 100%;
+}
 }
 @media all and (max-width:640px){
     .banner{
@@ -537,6 +540,7 @@ footer .copyright{
         color:#cfd8dc;
         border:1px solid #cfd8dc
     }
+   
     .container{
         width:90%;
         padding-left:10px;
