@@ -265,7 +265,10 @@ p-container-f img {
   cursor: pointer;
   color: #fff;
 }
-
+.ol-list {
+  margin-top: 10px;
+  margin-left: 20px;
+}
 @media only screen and (max-width: 768px) {
   .p-container,
   .p-container-img {
